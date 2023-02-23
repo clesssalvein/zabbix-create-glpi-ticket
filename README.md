@@ -32,4 +32,4 @@ chmod +x /usr/lib/zabbix/alertscripts
 
 - Create action **Create GLPI Ticket** with Send messages via Media type **glpiApiOpenTicket** in **Operations** and **Recovery operations**
 
-- When the trigger triggered there will be created Ticket in GLPI, when the trigger problem will become OK status - there will be created a followup in the ticket
+- When a trigger is triggered there will be created Ticket in GLPI, when the trigger problem will become OK status - there will be created a followup in the ticket
