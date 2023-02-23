@@ -78,7 +78,7 @@ if ! [[ ${#arrayOpenTicketIds[@]} -eq 0 ]]; then
         echo "$openedTicketId";
     done;
 else
-    # if there's no tickets with this ticketID
+    # if there's no tickets with this triggerID
     # add new ticket
     curl -s -X POST -H 'Content-Type: application/json' -H "Session-Token: ${sessionToken}" -H "App-Token: ${appToken}" \
         -d '{"input": {"entities_id": "'"${entityId}"'","name": "'"${ticketName}"'","content": "'"${ticketMessage}"'","status": "2","priority": "'"${eventSeverity}"'"}}' \
