@@ -17,7 +17,7 @@ Creating tickets in GLPI (via GLPI API) when a trigger in Zabbix is triggered wi
 yum install awk sed curl jq
 ```
 
-- Create script, app permissions and put into it contents of the **glpiApiOpenTicket.sh** file
+- Create script, add permissions and put contents of the **glpiApiOpenTicket.sh** file into it
 
 ```
 nano /usr/lib/zabbix/alertscripts
